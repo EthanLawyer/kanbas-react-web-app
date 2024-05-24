@@ -70,8 +70,88 @@ export default function Lab1() {
                     <li>1984</li>
                     <li>The 24 Faces of Billy Milligan</li>
                     <li>Journey Under the Midnight Sun</li>
-                </ul>
-
+                </ul> 
+            </div>
+            <div id="wd-tables">
+                <h4>Table Tag</h4>
+                <table border={1} width="100%">
+                    <thead>
+                        <tr>
+                        <th>Quiz</th>
+                        <th>Topic</th>
+                        <th>Date</th>
+                        <th>Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Q1</td>
+                            <td>HTML</td>
+                            <td>2/3/21</td>
+                            <td>85</td>
+                        </tr>
+                        <tr>
+                            <td>Q2</td>
+                            <td>CSS</td>
+                            <td>2/10/21</td>
+                            <td>90</td>
+                        </tr>
+                        <tr>
+                            <td>Q3</td>
+                            <td>JavaScript</td>
+                            <td>2/17/21</td>
+                            <td>95</td>
+                        </tr>
+                        <tr>
+                            <td>Q4</td>
+                            <td>TBD</td>
+                            <td>2/25/21</td>
+                            <td>88</td>
+                        </tr>
+                        <tr>
+                            <td>Q5</td>
+                            <td>TDB</td>
+                            <td>3/1/21</td>
+                            <td>95</td>
+                        </tr>
+                        <tr>
+                            <td>Q6</td>
+                            <td>TBD</td>
+                            <td>3/8/21</td>
+                            <td>97</td>
+                        </tr>
+                        <tr>
+                            <td>Q7</td>
+                            <td>TBD</td>
+                            <td>3/15/21</td>
+                            <td>89</td>
+                        </tr>
+                        <tr>
+                            <td>Q8</td>
+                            <td>TBD</td>
+                            <td>3/22/21</td>
+                            <td>91</td>
+                        </tr>
+                        <tr>
+                            <td>Q9</td>
+                            <td>TBD</td>
+                            <td>3/29/21</td>
+                            <td>94</td>
+                        </tr>
+                        <tr>
+                            <td>Q10</td>
+                            <td>TBD</td>
+                            <td>4/5/21</td>
+                            <td>98</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                        <td colSpan={3}>Average</td>
+                        <td>90</td>
+                        </tr>
+                    </tfoot>
+                </table>
             </div>
         </div>
     );
