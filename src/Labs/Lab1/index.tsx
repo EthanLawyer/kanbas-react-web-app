@@ -46,6 +46,16 @@ export default function Lab1() {
                     <li>Serve and enjoy!</li>
                 </ol>
 
+                One of my favorite recipes - Beef Noodles: 
+                <ol id="wd-your-favorite-recipe">
+                    <li>Clean and cut the beef into small chunks.</li>
+                    <li>Add them to cold water along with ginger pieces and green onions.</li>
+                    <li>Cook slowly until it boils.</li>
+                    <li>Keep it boiling for an hour.</li>
+                    <li>Add salt and raw noodles to the boiling broth.</li>
+                    <li>Cook until the noodles are ready.</li>
+                </ol>
+
             </div>
         </div>
     );
