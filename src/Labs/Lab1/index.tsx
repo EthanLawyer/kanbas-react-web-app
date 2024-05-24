@@ -56,6 +56,22 @@ export default function Lab1() {
                     <li>Cook until the noodles are ready.</li>
                 </ol>
 
+                <h5>Unordered List Tag</h5>
+                My favorite books (in no particular order)
+                <ul id="wd-my-books">
+                    <li>Dune</li>
+                    <li>Lord of the Rings</li>
+                    <li>Ender's Game</li>
+                    <li>Red Mars</li>
+                    <li>The Forever War</li>
+                </ul>
+                Your favorite books (in no particular order)
+                <ul id="wd-your-books">
+                    <li>1984</li>
+                    <li>The 24 Faces of Billy Milligan</li>
+                    <li>Journey Under the Midnight Sun</li>
+                </ul>
+
             </div>
         </div>
     );
