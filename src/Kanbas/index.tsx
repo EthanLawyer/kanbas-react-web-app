@@ -12,7 +12,6 @@ export default function Kanbas() {
             <KanbasNavigation />
           </td>
           <td valign="top">
-            <Dashboard />
             <Routes>
               <Route path="/" element={<Navigate to="Dashboard" />} />
               <Route path="Account" element={<h1>Account</h1>} />
