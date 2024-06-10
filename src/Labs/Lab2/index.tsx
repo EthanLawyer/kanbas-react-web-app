@@ -148,7 +148,7 @@ export default function Lab2() {
             Different rounded corners
           </p>
         </div>
-        
+
         <div id="wd-css-dimensions">
           <h2>Dimension</h2>
           <div>
@@ -160,6 +160,22 @@ export default function Lab2() {
               Landscape
             </div>
             <div className="wd-dimension-square wd-bg-color-red">
+              Square</div>
+          </div>
+        </div>
+
+        <div id="wd-css-position-relative">
+          <h2>Relative</h2>
+          <div className="wd-bg-color-gray">
+            <div className="wd-bg-color-yellow 
+                            wd-dimension-portrait">
+              <div className="wd-pos-relative-nudge-down-right">
+                Portrait</div></div>
+            <div className="wd-pos-relative-nudge-up-right 
+                wd-bg-color-blue wd-fg-color-white 
+                wd-dimension-landscape">
+              Landscape</div>
+            <div className="wd-bg-color-red wd-dimension-square">
               Square</div>
           </div>
         </div>
